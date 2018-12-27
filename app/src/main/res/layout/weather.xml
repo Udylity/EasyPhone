@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/cityedittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your city"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/stateedittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your state"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/getweatherbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View weather" />
+
+    <TextView
+        android:id="@+id/currentweather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter in information above then click the button to view weather" />
+
+
+</LinearLayout>

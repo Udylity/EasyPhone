@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/phonenuberedittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <ImageButton
+            android:id="@+id/backspace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:src="@android:drawable/ic_input_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/phonenumber1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/phonenumber2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/phonenumber3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/phonenumber4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/phonenumber5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/phonenumber6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/phonenumber7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/phonenumber8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/phonenumber9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/phonenumbermultiplication"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/phonenumber0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/phonenumbernumbersing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:text="#" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp" 
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/callfromcontacts"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:layout_marginBottom="10dp"
+            android:text="Contacts" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:text="Call" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/refresh"
+        android:alphabeticShortcut="r"
+        android:title="Refresh">
+    </item>
+    <item
+        android:id="@+id/forward"
+        android:alphabeticShortcut="f"
+        android:title="Forward">
+    </item>
+    <item
+        android:id="@+id/webbrowsersettings"
+        android:alphabeticShortcut="s"
+        android:title="Settings">
+    </item>
+    <item
+        android:id="@+id/back"
+        android:alphabeticShortcut="b"
+        android:title="Back">
+    </item>
+    <item
+        android:id="@+id/clearhistory"
+        android:alphabeticShortcut="h"
+        android:title="Clear History">
+    </item>
+    <item
+        android:id="@+id/quit"
+        android:alphabeticShortcut="q"
+        android:title="Quit">
+    </item>
+
+</menu>
